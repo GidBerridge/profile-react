@@ -2,12 +2,14 @@
 import React from "react";
 import ReactDOM from "react-dom";
 import SearchParams from "./searchParams";
+import Header from "./JS-components/navbar"
+import "./sass/index.scss";
 
 // Create React component
 
 const App = () => {
   return (
-    <SearchParams />
+    <Header />
   );
 };
 
