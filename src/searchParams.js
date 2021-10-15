@@ -1,11 +1,12 @@
 import { useState } from 'react';
 
 const SearchParams = () => {
-  const [location, setLocation] = useState("London, UK");
 
-  function updateLocation(e) {
-    setLocation(e.target.value);
+  for (let i = 0; i < Math.floor(Math.random()* 3); i++) {
+    const [animal, setAnimal] = useState("dog");
   }
+
+  const [location, setLocation] = useState("London, UK");
 
   return (
     <div className="search-params">
@@ -14,7 +15,7 @@ const SearchParams = () => {
           location
           <input
           id="location"
-          onChange={updateLocation}
+          onChange= {(e) => setLocation(e.target.value)}
           value={location}
           placeholder="location" />
         </label>

@@ -1,1 +1,16 @@
 @import "./components/header";
+@import "./components/media-queries";
+
+body {
+  background-image: url("../img/water_spray__background.jpeg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-attachment: fixed;
+}
+
+.container {
+  width: 80%;
+  // background-color: green;
+  margin: auto;
+}

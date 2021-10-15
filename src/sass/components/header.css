@@ -1,8 +1,8 @@
 .header {
   display: flex;
-  justify-content: center;
-  background-color: green; }
+  justify-content: space-evenly;
+  max-width: 80%;
+  margin: 1.5rem auto; }
 
 .nav-text {
-  color: #FDF405;
-  margin: 2rem; }
+  color: #FDF405; }

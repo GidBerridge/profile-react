@@ -4,6 +4,7 @@ const Header = () => {
 
   return (
     <div className="header">
+      <div className="nav-text">About</div>
       <div className="nav-text">Projects</div>
       <div className="nav-text">Skills</div>
       <div className="nav-text">Contact</div>

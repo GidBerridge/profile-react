@@ -1,15 +1,16 @@
 // Import react and ReactDOM libraries
 import React from "react";
 import ReactDOM from "react-dom";
-import SearchParams from "./searchParams";
-import Header from "./JS-components/navbar"
+import Header from "./JS-components/header";
 import "./sass/index.scss";
 
 // Create React component
 
 const App = () => {
   return (
-    <Header />
+    <div className="container">
+      <Header />
+    </div>
   );
 };
 
