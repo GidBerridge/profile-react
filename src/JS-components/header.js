@@ -1,13 +1,12 @@
 // import { useState } from 'react';
 
 const Header = () => {
-
   return (
     <div className="header">
-      <div className="nav-text">About</div>
-      <div className="nav-text">Projects</div>
-      <div className="nav-text">Skills</div>
-      <div className="nav-text">Contact</div>
+      <div className="nav-text about">About</div>
+      <div className="nav-text projects">Projects</div>
+      <div className="nav-text skills">Skills</div>
+      <div className="nav-text contact">Contact</div>
     </div>
     )
 };

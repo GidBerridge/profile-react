@@ -1,20 +1,10 @@
-// Import react and ReactDOM libraries
 import React from "react";
 import ReactDOM from "react-dom";
-import Header from "./JS-components/header";
-import "./sass/index.scss";
+// import registerServiceWorker from './registerServiceWorker';
+import App from './App';
 
-// Create React component
 
-const App = () => {
-  return (
-    <div className="container">
-      <Header />
-    </div>
-  );
-};
 
-// Take React component and show on screen
 
 ReactDOM.render(<App />, document.querySelector("#root"));
 
