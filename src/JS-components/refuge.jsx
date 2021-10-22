@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import refuge from '../img/vinyltracer_screenshot.jpg'
+import refuge from '../img/refuge_screenshot.jpg'
 
 class Refuge extends Component {
   render() {
