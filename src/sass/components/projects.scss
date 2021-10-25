@@ -1,6 +1,5 @@
 .card-project {
   overflow: hidden;
-  // background: white;
   box-shadow: 0 0 15px rgba(0,0,0,0.2);
   width: 38rem;
   height: 50rem;
@@ -11,7 +10,6 @@
 .card-project > img {
   height: 50%;
   width: 100%;
-  // object-fit: cover;
 }
 
 .card-project h2 {
@@ -32,8 +30,8 @@
 .card-project .card-project-infos {
   padding: 16px;
   display: flex;
-  justify-content: space-between;
-  align-items: flex-end;
+  justify-content: center;
+
   position: relative;
 }
 
