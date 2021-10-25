@@ -4,7 +4,15 @@ import refuge from '../img/refuge_screenshot.jpg'
 class Refuge extends Component {
   render() {
     return (
-        <img src={refuge} alt="refuge screenshot" className="refuge" />
+      <div class="card-project">
+        <img src={refuge} alt="refuge hq screenshot" />
+        <div class="card-project-infos">
+          <div>
+            <h2>Title here</h2>
+            <p>Short description here!</p>
+          </div>
+        </div>
+      </div>
       )
   }
 };
