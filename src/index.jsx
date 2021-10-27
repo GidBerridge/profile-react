@@ -1,19 +1,18 @@
 // Import react and ReactDOM libraries
 import React from "react";
 import ReactDOM from "react-dom";
-import SearchParams from "./searchParams";
+import App from "./App";
 
 // Create React component
 
-const App = () => {
-  return (
-    <SearchParams />
+const root = document.getElementById('root');
+if (root) {
+  ReactDOM.render(
+    <App />, root
   );
-};
+}
 
 // Take React component and show on screen
-
-ReactDOM.render(<App />, document.querySelector("#root"));
 
 if (module.hot) {
   module.hot.accept()
