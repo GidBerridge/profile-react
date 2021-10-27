@@ -2,10 +2,8 @@
   display: flex;
   justify-content: space-evenly;
   max-width: 80%;
-  margin: 1.5rem auto;
-}
+  margin: 1.5rem auto; }
 
 .nav-text {
   color: #380B67;
-  font-family: raleway, sans-serif;
-}
+  font-family: raleway, sans-serif; }

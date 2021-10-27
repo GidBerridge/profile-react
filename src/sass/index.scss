@@ -1,1 +1,24 @@
-@import "components/header";
+@import "./components/header";
+@import "./components/media-queries";
+@import "./components/projects";
+
+body {
+  background-image: url("../img/water_spray__background.jpeg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-attachment: fixed;
+}
+
+.container {
+  max-width: 80%;
+  margin: auto;
+}
+
+.skills{
+  max-width: 90%;
+}
+
+.hidden {
+  display: none;
+}
