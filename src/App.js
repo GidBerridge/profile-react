@@ -8,8 +8,8 @@ const App = () => {
   return (
     <div className="container">
       <Header />
-      <Skills className="hidden"/>
-      <Projects className="hidden"/>
+      <Skills className="unhide"/>
+      <Projects className="hidden flag"/>
     </div>
   );
 };
