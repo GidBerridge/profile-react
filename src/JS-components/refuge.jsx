@@ -8,8 +8,9 @@ class Refuge extends Component {
         <img src={refuge} alt="refuge hq screenshot" />
         <div class="card-project-infos">
           <div>
-            <h2>Title here</h2>
-            <p>Short description here!</p>
+            <h2 className="card-project-infos title">www.officialrefuge.com</h2>
+            <h2 className="card-project-infos">HTML / CSS</h2>
+            <p>A responsive static site built in HTML / CSS.</p>
           </div>
         </div>
       </div>

@@ -8,8 +8,12 @@ class Vinyl extends Component {
         <img src={vinyl} alt="vinyl hq screenshot" />
         <div class="card-project-infos">
           <div>
-            <h2>Title here</h2>
-            <p>Short description here!</p>
+            <h2 className="card-project-infos title">www.vinyltracer.com</h2>
+            <h2 className="card-project-infos">Ruby on Rails</h2>
+            <p>A music suggestion app built in Rails.</p>
+            <p>Working in a small agile team,  I was involved in both the front and back end.</p>
+            <p>The app utilises web scraping and accesses an API for the data</p>
+            <p>and also includes a hard coded database.</p>
           </div>
         </div>
       </div>

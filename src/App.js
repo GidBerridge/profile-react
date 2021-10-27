@@ -8,8 +8,8 @@ const App = () => {
   return (
     <div className="container">
       <Header />
-      <Skills />
-      <Projects />
+      <Skills className="hidden"/>
+      <Projects className="hidden"/>
     </div>
   );
 };
