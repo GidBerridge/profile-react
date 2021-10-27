@@ -1,16 +1,6 @@
-import React, { Component } from 'react';
+import React, { useState } from 'react';
 
 const Header = () => {
-
-  // const about = document.querySelector('.about');
-  // const projects = document.querySelector(".projects-btn");
-  // const projectsPage = document.querySelector(".flag");
-  // const skills = document.querySelector('.skills');
-  // const contact = document.querySelector('.contact');
-
-  //   projects.addEventListener('click', function () {
-  //     projectsPage.classList.toggle("hidden");
-  //   });
 
 
   return (
