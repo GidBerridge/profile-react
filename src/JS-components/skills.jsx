@@ -1,12 +1,17 @@
-import React, { Component } from 'react';
+import React from 'react';
 import tech_img from '../img/tech_stack.png'
 
-class Skills extends Component {
-  render() {
-    return (
-        <img src={tech_img} alt="tech stack" className="skills hidden" />
-      )
-  }
-};
+function SkillsToggle() {
+  const [show, setShow] = React.useState(false);
+  return(
+      <div className="nav-text" >
+        {
+          show ? <img src={tech_img} alt="tech stack" className="skills" /> : null
+        }
+        <button  className="nav-text" onClick={() => setShow(!show)}>Skills</button>
+      </div>
+  );
+}
 
-export default Skills;
+
+export default SkillsToggle;
