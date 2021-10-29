@@ -8,7 +8,7 @@ function SkillsToggle() {
         {
           show ? <img src={tech_img} alt="tech stack" className="skills" /> : null
         }
-        <button  className="nav-text" onClick={() => setShow(!show)}>Skills</button>
+        <a className="nav-text" onClick={() => setShow(!show)}>Skills</a>
       </div>
   );
 }

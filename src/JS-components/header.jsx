@@ -1,15 +1,17 @@
 import React from 'react';
 import ProjectsToggle from './projects.jsx'
 import SkillsToggle from './skills.jsx'
+import AboutToggle from './about.jsx'
+import ContactToggle from './contact.jsx'
 
 const Header = () => {
   return (
 
     <div className="header">
-      <div className="nav-text about"><a href="">About</a></div>
+      <AboutToggle />
       <ProjectsToggle />
       <SkillsToggle />
-      <div className="nav-text contact"><a href="">Contact</a></div>
+      <ContactToggle />
     </div>
     )
 };

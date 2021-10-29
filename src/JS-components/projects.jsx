@@ -11,7 +11,7 @@ function ProjectsToggle() {
         {
           show ? <Display /> : null
         }
-        <button  className="nav-text" onClick={() => setShow(!show)}>Projects</button>
+        <a className="nav-text" onClick={() => setShow(!show)}>Projects</a>
       </div>
   );
 }

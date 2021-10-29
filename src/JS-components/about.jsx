@@ -1,9 +1,21 @@
-import spanner from '../img/spanner_screenshot.jpg'
+import React from 'react';
+
+function AboutToggle() {
+  const [show, setShow] = React.useState(false);
+  return(
+      <div className="nav-text" >
+        {
+          show ? <About /> : null
+        }
+        <a className="nav-text" onClick={() => setShow(!show)}>About</a>
+      </div>
+  );
+}
+
 
 const About = () => {
   return (
     <div className="card-project">
-      <img src={spanner} alt="spanner hq screenshot" />
       <div className="card-project-infos">
         <div>
           <h2 className="card-project-infos title">Gideon Berridge</h2>
@@ -19,4 +31,4 @@ const About = () => {
 }
 
 
-export default About;
+export default AboutToggle;
