@@ -3,11 +3,16 @@ import ProjectsToggle from './projects.jsx'
 import SkillsToggle from './skills.jsx'
 import AboutToggle from './about.jsx'
 import ContactToggle from './contact.jsx'
+import Navbar from './Navbar/navIndex.jsx'
+import {BrowserRouter as Router} from 'react-router-dom';
 
-const Header = () => {
+function Header(){
   return (
 
     <div className="header">
+      <Router>
+        <Navbar />
+      </Router>
       <AboutToggle />
       <ProjectsToggle />
       <SkillsToggle />
