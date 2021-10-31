@@ -1,7 +1,7 @@
 import React from 'react';
 import Vinyl from './vinyl.jsx'
 import Refuge from './refuge.jsx'
-import Spanner from './spanner.jsx'
+import Spanner from './projects/spanner.jsx'
 
 
 function ProjectsToggle() {
