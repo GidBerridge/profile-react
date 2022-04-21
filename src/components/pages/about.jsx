@@ -2,13 +2,13 @@ import React from 'react';
 
 function AboutToggle() {
   const [show, setShow] = React.useState(false);
-  return(
-      <div className="nav-text" >
-        {
-          show ? <About /> : null
-        }
-        <a className="nav-text" onClick={() => setShow(!show)}>About</a>
-      </div>
+  return (
+    <div className="nav-text" >
+      {
+        show ? <About /> : null
+      }
+      <a className="nav-text" onClick={() => setShow(!show)}>About</a>
+    </div>
   );
 }
 
